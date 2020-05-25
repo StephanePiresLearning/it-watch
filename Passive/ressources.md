@@ -20,7 +20,7 @@
 
 <td> 
 <tr>*  Dev.to : https://dev.to </tr>
-<tr>* </tr>
+<tr>* FreeCodeCamp News : https://www.freecodecamp.org/news/</tr>
 <tr>* </tr>
 <tr>* </tr>
 <tr>* </tr>
@@ -28,11 +28,11 @@
 
 <h3 align='left'>Knowledge</h3>
 
-<p align='left'>Strong ressrouces, studies, books, learning websites about things that's are well known and establish</p>
+<p align='left'>Strong ressources, studies, books, learning websites about things that's are well known and establish</p>
 
 <td> 
-<tr>* </tr>
-<tr>* </tr>
+<tr>* FreeCodeCamp : https://www.freecodecamp.org </tr>
+<tr>* Codewars : https://www.codewars.com/trainer/setup </tr>
 <tr>* </tr>
 <tr>* </tr>
 <tr>* </tr>
