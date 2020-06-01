@@ -7,9 +7,9 @@
 <p align='left'>Latest news, twitter and ressources concerning the IT world and new technologies.</p>
 
 <td> 
-<tr>* </tr>
-<tr>* </tr>
-<tr>* </tr>
+<tr>* Hacker News : https://news.ycombinator.com</tr>
+<tr>* Tech Crunch : Down :sad:</tr>
+<tr>* Mastery Games : https://mastery.games</tr>
 <tr>* </tr>
 <tr>* </tr>
 </td>
@@ -19,9 +19,9 @@
 <p align='left'>Blog, articles, books, videos driving the IT world/ JS world</p>
 
 <td> 
-<tr>*  Dev.to : https://dev.to </tr>
+<tr>* Dev.to : https://dev.to </tr>
 <tr>* FreeCodeCamp News : https://www.freecodecamp.org/news/</tr>
-<tr>* </tr>
+<tr>* Roadmap.sh : https://roadmap.sh</tr>
 <tr>* </tr>
 <tr>* </tr>
 </td>
@@ -33,7 +33,11 @@
 <td> 
 <tr>* FreeCodeCamp : https://www.freecodecamp.org </tr>
 <tr>* Codewars : https://www.codewars.com/trainer/setup </tr>
-<tr>* </tr>
+<tr>* FrontendMasters : https://frontendmasters.com</tr>
 <tr>* </tr>
 <tr>* </tr>
 </td>
+
+### Agile / Scrum
+
+* https://about.gitlab.com/company/culture/all-remote/guide/
