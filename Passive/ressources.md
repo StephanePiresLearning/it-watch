@@ -9,6 +9,7 @@
 * Hacker News : https://news.ycombinator.com
 * Tech Crunch : Down :sad:
 * Mastery Games : https://mastery.games
+* Overreacted : https://overreacted.io
 
 <h3 align='left'>Trend</h3>
 
@@ -22,11 +23,12 @@
 <h3 align='left'>Knowledge</h3>
 
 <p align='left'>Strong ressources, studies, books, learning websites about things that's are well known and establish</p>
-
  
 * FreeCodeCamp : https://www.freecodecamp.org 
 * Codewars : https://www.codewars.com/trainer/setup
 * FrontendMasters : https://frontendmasters.com
+* Scrimba : https://scrimba.com
+* You don't know js yet : https://github.com/getify/You-Dont-Know-JS
 
 ### Agile / Scrum
 
