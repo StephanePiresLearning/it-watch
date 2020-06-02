@@ -1,0 +1,189 @@
+Pour les User Stories
+
+
+OBJECTIF : D'avoir des US qui peuvent ce finir en un sprint sinon, il faut découper. 
+On fait tout ça pour mieux distribuer la charge de travail et pour aller plus vite lors de l'estimation
+
+On découpe un US EPIC : Car il est plus simple de d'estimer une petit tâche précise : "Combien de temps te faut t'il pour faire un trou dans un mur ?" plutôt qu'une grande tâche "Combien de temps te faut t'il pour faire construire ta maison ?"
+
+
+
+34 ( 17 jours - EPIC ) ---- // Ajouter une extension à ma maison											(40%)
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+21 (10,5 jours) ----------- // Refaire ma cuisine															(55%)
+|
+|
+|
+|
+|
+|
+|
+13 (6,5 jour) ------------- // Aménager les combles															(70%)
+|
+|
+|
+|
+8 (4 jour) ---------------- // Abattre le mur de la cuisine													(80%)
+|
+|
+5 (2,5 jour) -------------- // Changer la parquet du haut													(85%)
+|
+3 (1,5 jour) -------------- // Peindre les mur de ma chambre												(95%)
+2 (une journée) ----------- // Passer un cable étherne de ma box à ma chambre (en passant dans les murs)	(99%)
+1 (demi journée) ---------- // Faire un trou dans un murs 													(100%)
+
+
+Au fur et a mesure que l'on s'éloigner d'une petite tâche ", le niveau d'imprécision augmente.
+Il est aussi plus facile d'estimer des user story, si le sous tâches on été identifiée
+
+Abattre le mur de la cuisine :
+	- Débrancher les prises
+	- Pousser les meubles
+	- Protéger ce qui ne peut être poussé
+	- Aller cherche les outils adéquat
+	- Casser le mur
+	- Passer l'asiprateur
+	- Mettre les débris à la décharge
+	- etc.. 
+
+On compte : 
+
+La charge de la US (actuelle) c'est le label
+
+La charge total de la US (c'est la weight)
+
+La charge de review d'une US (c'est égal à la weight)
+
+Charge review >>> Charge code
+
+
+Lorsqu'on réévalue : 
+
+Si le développeur n'a pas dutout eu le temps de faire la story on ne change pas le poids. 
+Si le développeur à commencer il réévalue la charge :
+	* à la baisse s'il se rend compte qu'il a moins de travail à fournir (Bien estimer mais pas le temps de finir, charge à la baisse, le développeur à pris plus de points que ce qu'il est capable de terminer) (Problème de temps disponible) (T)
+	* à la hausse s'il se rend compte qu'il a plus de travail à fournir (Mal estimer, il y'a plus de travail à fournir) (Problème d'estimation) (E)
+
+	(Problème), car si le dev prend la story (8 Points) à la fin de son sprint (1jour avant), s'il considère que la story est bien estimée (alors on va considérer qu'il a effectuer 8 points de travail en un jours (abérant))
+	(Solution), si la story est débuter trop tard (2-3 jours avant la fin du sprint) le travail qui a pu être effectué n'est pas compter (on considère que la story n'a pas été débutée)
+
+Exemple : D'une réévaluation de points sur une US qui a été mal estimé
+
+L'équipe "WebApp" à estimer la US "FaireLeCafé" à 13 points lors de la dernière réunion d'affinage. 
+Le sprint(1) est passé (post review/retro , post seconde réunion d'affinage)
+Nous voila à la deuxième réunion d'affinage celle qui marque le début du sprint(2) 
+Coco la développeuse qui est en charge de la US "FaireLeCafé" trouve que celle-ci à été mal estimée, elle n'a pas eu le temps de finir au sprint dernier. Elle va alors la réévaluer. Cette story est selon elle une story à 21 points. 
+
+Le calcul est donc le suivant : (13 points du sprint(1)) + (8 points de la réévaluation de Coco pour le sprint(2)) = 21 points en tout pour cette US au final.
+
+
+Exemple : D'une réévaluation de points sur une US qui a été commencé mais pas fini
+
+L'équipe "WebApp" à estimer la US "FaireLeCafé" à 8 points lors de la dernière réunion d'affinage. 
+Le sprint(1) est passé (post review/retro , post seconde réunion d'affinage)
+Nous voila à la deuxième réunion d'affinage celle qui marque le début du sprint(2) 
+Coco la développeuse qui est en charge de la US "FaireLeCafé" à commencer la US mais n'a pas eu le temps de la finir. Elle va alors la déduire des points. Elle estime avoir fait 5 points sur cette Story. 
+
+Le calcul est donc le suivant : (8 points du sprint(1)) - (5 points de la réévaluation de Coco pour le sprint(2)) = 3 points en tout c'est la charge qu'il reste à effectuer d'après Coco pour le sprint(2) sur cette US.
+
+
+Exemple : D'une réévaluation qui combine une US commencé mais pas fini, et d'un US mal estimée
+
+L'équipe "WebApp" à estimer la US "FaireLeCafé" à 13 points lors de la dernière réunion d'affinage. 
+Le sprint(1) est passé (post review/retro , post seconde réunion d'affinage)
+Nous voila à la deuxième réunion d'affinage celle qui marque le début du sprint(2) 
+Coco la développeuse qui est en charge de la US "FaireLeCafé" à commencer la US mais n'a pas eu le temps de la finir de plus elle pense que l'estimation est incorrect. Elle va alors la déduire des points du travail déja fourni et estimer ce qui devrait être ajouter à la story. Elle estime avoir fait 3 points sur cette Story et pense qu'il faudrait en ajouter 8. 
+
+Le calcul est donc le suivant : (13 points du sprint(1)) - (3 points de la réévaluation de Coco pour le sprint(2) (travail effectuée)) + (8 points de la réévaluation de Coco pour le sprint(2) (réajustement de l'estimation de départ)) = 18 points en tout c'est la charge qu'il reste à effectuer d'après Coco pour le sprint(2) sur cette US.
+Le US pèse en tout 21 points.
+
+------------------------------------------------------------------------------ECHELLE SCRUM-----------------------------------------------------------------------------------------
+
+Durée sprint : 3 semaines  (15 jours)
+
+--SPI--
+
+34 ( 17 jours - EPIC ) ---- Ajouter une feature complexe, avec de nombreuse dépenses, utilisant une techno nouvelle peut ou pas maitrisée
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+21 (10,5 jours) ----------- Ajouter une feature, complexe, avec de nombreuse dépendances   
+|
+|
+|
+|
+|
+|
+|
+13 (6,5 jour) ------------- Ajouter une feature "moyennement simple" dans une page inconnu 
+|
+|
+|
+|
+8 (4 jour) ---------------- Ajouter une feature "moyennement simple" dans une page connu
+|
+|
+5 (2,5 jour) -------------- Refractorer un code inconnu en hooks
+|
+3 (1,5 jour) -------------- Refractorer un code connu, en hook
+2 (une journée) ----------- Ajouter un object dans le do et changer un label
+1 (demi journée) ---------- Changement de label
+
+
+--ROBIN--
+
+34 ( 17 jours - EPIC ) ---- 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+21 (10,5 jours) ----------- 
+|
+|
+|
+|
+|
+|
+|
+13 (6,5 jour) ------------- 
+|
+|
+|
+|
+8 (4 jour) ---------------- Lazy loading
+|
+|
+5 (2,5 jour) -------------- 
+|
+3 (1,5 jour) -------------- 
+2 (une journée) ----------- 
+1 (demi journée) ---------- 
+
+
+
+
+
+

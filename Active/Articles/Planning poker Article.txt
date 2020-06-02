@@ -1,0 +1,210 @@
+Title:  Why planning poker is relevant. 
+         Why planning poker should be used.
+         Top X of arguments to choose planning poker
+         Why planning poker?
+         "Planning poker isn't working !"
+         "Planning poker, I don't believe in it"
+    
+TLDR :
+
+Advantages : 
+
+* Planning poker is iterative, therefore the estimation converges
+
+* Planning poker individual estimates are revealed simultaneously to reduce the impact of social comparison
+
+* Planning poker is fast 
+
+* Planning poker put every participant on an equal footing. Therefore it reduces the weight of people who are the loudest or the most influential (people with strong personalities)
+
+* Planning poker is relatively fun 
+
+* Planning poker is easy to learn and to master
+
+Drawbacks : 
+
+* Group estimations and discussion introduce optimistic bias
+
+To push further : 
+
+* It seems that group estimations introduce an optimistic bias. This may be compensated by the expertise/knowledge of the participant. But also by the diversity in knowledge.  
+
+Me, myself and I:
+
+ I'm actually in an internship in a company that is producing video switchers for large account customers in the ProAV field. I'm in a conflictual relationship with React/Redux
+
+Plan: 
+A) Introduction
+B) The Story
+C) Conclusion
+
+Introduction:
+
+ "I don't believe in it". It was the first words of our Q&A engineer after he attended our estimating workshop. He directly follows up with "I don't understand the planning poker methodology, you are asking people that have different knowledge (junior, senior, expert) their opinion about the time it might take to implement a solution, but we don't even fully understand the problem. We may not have all the necessary information." I was tempted to reply to him "People are using planning poker since 2002, it's working you can take it for granted". But assuming something is working JUST because things have always been done that way isn't a really good mindset in my opinion. So humbly I replied that I will make my research about that question "Why is planning poker performant ?". I then relentlessly read papers and books about it. This article is a summary of my research.
+
+The Story : 
+
+To illustrate the different benefits of planning poker let's take an example. Imagine a group of gangsters. They are organizing a robbery to the central bank of Saint-Mammès (which is a little French town).  The group is composed of 4 members. 
+
+(Mr. White) : The nice guy, he is the older one. He has done several breakages. But he's not as talented as Mrs. Blondie 
+(Mrs. Blondie): She doesn't speak a lot. She's the caricature of an expert thief. She's an awesome expert but revealing information for free to others isn't her thing
+(Mr. Pink) : The perfect mobster,  always sure of him. He knows what the local prison looks like. A senior thug but not talented. 
+(Mrs. Orange) : A fresh recruit, really motivated and eager to learn the tricks of the trade of the perfect scoundrel
+
+Today is the day of their first meeting. They are organizing together to knows who's the most skilled, depending on the tasks they have to do.
+
+Opening the bank vault
+Keeping an eye on the hostage
+Driving in intense condition
+etc..
+It's now the time to estimate how long they can afford to stay inside the bank
+
+Mr. Pink, who's always sure of him starts by saying "We can largely stay 10 minutes inside. The nearest police office is at 15 km, and even if someone triggers the alarm, we will have widely the time"
+
+Mr. White, who's a seasoned rubber reply " You're wrong we can't afford more than 8 minutes, even if the post office is at 15km, cops could drive quite fast when they want to kick asses"
+
+Mrs. Orange is not sure of her, but she thinks Mr. Blue is experienced enough.  She intervenes "I think we can't stay more than 8 minutes"
+
+Mr. Pink is losing his nerve. "You're not professional, anyone with a little experience would know that we have at least 10 minutes inside"
+
+Mrs. Blondie who's has been silent the whole time, thinks that she shouldn't follow those three. In that scenario, with these conditions, they don't have more than 4 minutes.  The post office may be at 15km but the cops have just changed their old ford fiesta for the new Subaru WRX it won't take them much time to be there.
+
+After an endless debate between Mr. Pink and Mr. White that lasted 2 hours, the discussion ends. The group forecasted that they have a window of 9 minutes before the cops arrive. 
+
+Mrs. Blondie has lost her time and hasn't been able to give her opinion
+Mr. Pink is angry but satisfied almost every task has been estimated accordingly to his vision
+Mr. White is exhausted it has been really difficult for him to argue against a thug such as Mr. Pink
+Mrs. Orange feels lost, she doesn't understand the reason for the final estimations The men were just arguing all the time without giving useful information
+
+There several things that went wrong during this meeting: 
+
+#1 It was too long. 
+#2 Too much discussion with no added value
+#3 We are losing expert opinion due to shyness
+#4 It was an unpleasant experience for at least half the participant
+#5 An anchor effect due to Mr. Pink giving his opinion first
+
+Sadly you can't avoid estimation meetings. It's needed to properly dispatch the tasks to each member of the team
+
+
+
+"The proper way to elicit information from a group is not by starting with a public discussion" Daniel Kahneman
+
+
+
+An alternate solution would be to use an estimation workshop: for example planning poker.
+
+If this group of gangsters had used planning poker to estimate how long they can afford to stay in the bank. This is how they would have to proceed
+
+Each member receive 6 cards (1-2-3-5-8-13(K))
+Each gangster will think about which card best represents his estimation. Then each of the mobsters put the card on the downside. Once everyone is ready the card is returned. Then a discussion starts with the two extremes estimation.
+
+First round : 
+Mr. White estimate with 8
+Mrs. Blondie estimate with 3
+Mr. Pink estimate with 13
+Mrs. Orange estimate with 5
+
+Mrs. Blondie, and Mr. Pink. starts the discussion :
+
+Mr. Pink, who's always sure of him starts by saying "We can stay around 13 minutes inside. The nearest police office is at 15 km, and even if someone triggers the alarm, we will have widely the time"
+Mrs. Blondie reply "I have estimated 3 minutes because the cops have changed their old ford for a whole new Subaru WRX, it won't take them much time to get to the bank if the alarm triggers"
+Mr. Pink "I didn't know about that, yes they may be faster, but even if they changed the car, the traffic jam may slow them down a lot"
+
+No one has nothing to add
+
+Second round :
+Mr. White estimate with 5
+Mrs. Blondie estimate with 5 (3 on the first round)
+Mr. Pink estimate with 8 (13 on the first round)
+Mrs. Orange estimate with 8
+
+If someone has a valuable argument to add to the discussion he is free to do so. 
+
+No one has new information to share with the group. The poker planning stops
+
+We then take the mean of the different estimation (8+8+5+5)/4 = 6.5
+
+Finally, the group of mobsters agreed that they can't stay longer than 6 minutes and 30 seconds inside the bank
+
+Planning poker helped to correct a lot of drawbacks
+
+#1 Rounds and iteration helps the estimation session to converge to a unique value
+#2 The discussion stops if no one can add useful information to the estimation such has hiding tasks. It helps refrain endless discussion
+#3 The process force people to vote. You are not losing the insight of shy peoples. It reduces the impact of strong personalities 
+#4 It looks like a game, therefore if it's not pleasant it's at least attractive
+#5 The anchoring effect is reduced and developers are not influenced by the estimation of their colleagues (At least the first round, and in a certain extent during the second round)
+
+
+How to conduct a good planning poker :
+
+* Having people justifying their choices, especially the two extremes of the round. 
+
+* Having has many experts on the subject as possible.
+
+* Having a set of people with diverse knowledge and experiences.
+
+* There is no shame to say that you can't evaluate a user story because you haven't the knowledge or because you consider it has an epic. It's better to be approximately right than precisely wrong.
+
+* Make at least two rounds, to make the estimations converge. 
+
+* Novice shouldn't vote. At best they will follow what's the expert will say. At worst they will be completely blind to arguments and unbalance the estimations.
+
+Alternates : 
+
+* Delphi
+* Wideband Delphi
+* Unstructured groups
+* Statistical groups
+* Decision markets
+
+Conclusion :
+
+Planning poker is a viable method for group estimation.
+
+This method will help a lot of facilitators and managers who want to gather developers and make them estimate tasks and user stories.
+
+Fast, easy, efficient are the three words you should reply to someone who tries to challenge the planning poker.
+
+Fast.  You can timebox the exchange between each round of the planning poker. Furthermore, you don't need to ask people one by one, everyone gives his estimation at the same time synchronously.
+
+The fact that it's a disguised game, make it easier for people to try, accept and adopt.
+
+Iteration helps the development team converge to an estimation. The number of poker rounds is limited
+
+Easy. If you have played a card game once in your life you are ready for a planning poker session.
+
+Efficient.  It reduces the noise made by people with strong personalities.  The iterative process is at the heart of the method, session after session, estimation using planning poker will be more accurate. Mainly due to the feedback loop of agile process such as SCRUM.  In the end, agility is mainly about iteration and learning from feedback.
+
+But nothing is perfect and group estimation such has planning poker introduces a bias. An Optimistic bias. People are inherently optimistic when they estimate in groups https://en.wikipedia.org/wiki/Optimism_bias   
+
+In my opinion, the drawbacks are by far compensated by the advantages. I'm looking forward to more studies that could definitively prove that the optimistic bias induced by group estimation, is compensated by the planning poker.
+
+P.S: Oh, and the group of mobsters gets caught by the cops, someone was Undercover.
+
+Source :
+* Using planning poker for combining expert estimates in software projects Kjetil Moløkken-østvold, Nils Christian Haugen, Hans Christian Benestad  - 23 April 2008
+* On using planning poker for estimating user stories Viljan Mahnic, Tomaz Hovelja - 10 April 2012
+* SCRUM: Pour une pratique vivante de l'agilité by Claude Aubry - (5ème édition)
+* Thinking, fast and slow by Daniel Kahneman
+
+
+Definition: Sprint review: 
+        Scrum : 
+
+Quote : 
+"The proper way to elicit information from a group is not by starting with a public discussion"
+"Our initial forecasts of about two years for the completion of the project exhibited a planning fallacy"
+
+// Why is iterative method working well? 
+
+// Make it work, make it readable, make it right, make it fast
+
+
+// Correction  ?
+
+
+// Ajouter ?
+
+
+// Enlever ?
