@@ -34,9 +34,14 @@
 
 * [Gitlab full remote](https://about.gitlab.com/company/culture/all-remote/guide/)
 
+### ECMAScript
+
+* [[WIP]](WIP)
+
 ### Studies 
 
 * [State of Javascript](https://2019.stateofjs.com) 
 * [State of CSS](https://2019.stateofcss.com) 
 * [Frontend Master's handbook](https://frontendmasters.com/books/front-end-handbook/2019/#7) 
-* [Stack Overflow Developers Survey](https://insights.stackoverflow.com/survey/2020) 
+* [Stack Overflow Developers Survey](https://insights.stackoverflow.com/survey/2020)
+
