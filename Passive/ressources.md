@@ -29,6 +29,7 @@
 * [FrontendMasters](https://frontendmasters.com) 
 * [Scrimba](https://scrimba.com) 
 * [You don't know js yet](https://github.com/getify/You-Dont-Know-JS) 
+* [JS Challenger](https://www.jschallenger.com/) 
 
 ### Agile / Scrum
 
