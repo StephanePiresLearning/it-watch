@@ -30,6 +30,7 @@
 * [Scrimba](https://scrimba.com) 
 * [You don't know js yet](https://github.com/getify/You-Dont-Know-JS) 
 * [JS Challenger](https://www.jschallenger.com/) 
+* [9 differents coding games](https://www.freecodecamp.org/news/best-coding-games-online-adults-learn-to-code/)
 
 ### Agile / Scrum
 
