@@ -2,7 +2,7 @@
 
 <h2 align='left'>Ressources : </h2>
 
-<h3 align='left'>Hot topics</h3>
+**<h3 align='left'>Hot topics</h3>**
 
 <p align='left'>Latest news, twitter and ressources concerning the IT world and new technologies.</p>
 
@@ -11,7 +11,7 @@
 * [Mastery Games](https://mastery.games) 
 * [Overreacted](https://overreacted.io) 
 
-<h3 align='left'>Trend</h3>
+**<h3 align='left'>Trend</h3>**
 
 <p align='left'>Blog, articles, books, videos driving the IT world/ JS world</p>
 
@@ -20,7 +20,7 @@
 * [Roadmap.sh](https://roadmap.sh) 
 
 
-<h3 align='left'>Knowledge</h3>
+**<h3 align='left'>Knowledge</h3>**
 
 <p align='left'>Strong ressources, studies, books, learning websites about things that's are well known and establish</p>
  
@@ -32,15 +32,15 @@
 * [JS Challenger](https://www.jschallenger.com/) 
 * [9 differents coding games](https://www.freecodecamp.org/news/best-coding-games-online-adults-learn-to-code/)
 
-### Agile / Scrum
+### **Agile / Scrum**
 
 * [Gitlab full remote](https://about.gitlab.com/company/culture/all-remote/guide/)
 
-### ECMAScript
+### **ECMAScript**
 
 * [ECMAScript specification](https://tc39.es/ecma262/)
 
-### Studies 
+### **Studies**
 
 * [State of Javascript](https://2019.stateofjs.com) 
 * [State of CSS](https://2019.stateofcss.com) 
