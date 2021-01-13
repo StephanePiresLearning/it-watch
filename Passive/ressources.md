@@ -47,3 +47,6 @@
 * [Frontend Master's handbook](https://frontendmasters.com/books/front-end-handbook/2019/#7) 
 * [Stack Overflow Developers Survey](https://insights.stackoverflow.com/survey/2020)
 
+### **Tools**
+* [BestofJS](https://bestofjs.org)
+
